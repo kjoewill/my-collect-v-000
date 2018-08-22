@@ -10,3 +10,5 @@ def my_collect(collection)
   results
 end
 
+array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+puts my_collect(array) { |name| name.split(" ").first }
